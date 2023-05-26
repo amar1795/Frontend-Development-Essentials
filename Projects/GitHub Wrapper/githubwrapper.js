@@ -62,6 +62,34 @@ async function showReposInfo(userName) {
 }
 
 
+// using async function
+
+// async function showReposInfo(userName) {
+//     const res = await fetch(`https://api.github.com/users/${userName}/repos`)
+//     const projects = await res.json();
+    
+//     for (let i = 0; i < projects.length; i++) {
+//         reposInfoDiv.innerHTML += `<div class="card">
+//                 <div class="card-body">
+//                     <div class="card-title">${projects[i].name}</div>
+//                     <div class="card-subHeading">${projects[i].language}</div>
+//                     <div class="card-text">
+//                         <button>
+//                             <a href=${projects[i].html_url}>
+//                                 Do checkout Project
+//                             </a>
+//                         </button>
+//                     </div>
+//                 </div>
+//             </div>`
+//     }
+// }
+
+
+
+
+
+
 
 
 
